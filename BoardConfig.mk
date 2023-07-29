@@ -9,6 +9,8 @@ include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/olive
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Display
 TARGET_SCREEN_DENSITY := 320
 
