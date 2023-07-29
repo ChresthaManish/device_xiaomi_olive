@@ -17,5 +17,8 @@ TARGET_SCREEN_DENSITY := 320
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/olive_defconfig
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := olive
+
 # Inherit from the proprietary version
 include vendor/xiaomi/olive/BoardConfigVendor.mk
